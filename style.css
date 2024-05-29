@@ -274,7 +274,7 @@ h1 {
 /* Contacto */
 .contacto .container {
     margin-top: 50px;
-    width: 1000px;
+    width: 100%;
     min-height: 200px;
     padding: 20px;
 }
@@ -358,6 +358,9 @@ h1 {
     .overlay i {
         font-size: 40px;
     }
+    .experiencia {
+        margin-top: 100px;
+        }
 }
 
 @media screen and (max-width:800px) {
