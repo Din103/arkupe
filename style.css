@@ -1,0 +1,373 @@
+/* Barra de navegacion */
+
+.navbar{
+    padding: 10px;
+    /* background-color: #f5f6f7; */
+    /* background-color: goldenrod; */
+    font-size: 2rem;
+    text-decoration: none;
+    }
+
+.nav-item a {
+    color: orangered;
+}  
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales  */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Rubik Dirt', cursive;
+    color:orangered;    
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
+}
+.texto-negro {
+    color: black;
+}
+.texto-blanco {
+    color:white;
+}
+/* Seccion Hero */
+
+.hero {
+    /* background-color: #f5f6f7; */
+    /* background-color: goldenrod; */
+    /* background-image: url(Fotos/Portada2.jpg);     */
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding-top: 5px;
+}
+.hero-principal h2 {
+   font-size: 2.5rem;
+   color: orangered;
+}
+.hero-principal img {
+    max-height: 200px;
+    max-width: 90%;
+ }
+.hero-inferior img {
+    width: 100%;
+}
+
+/* Quienes somos  */
+.quienes-somos {
+    height: 525px;    
+    margin-top: 5px;
+    background-color: white;
+    
+}
+.quienes-somos .contenedor {
+    max-height: 700px;
+    max-width: 700px;
+    text-align: center;
+    background-color:goldenrod;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+    padding: 30px;
+}
+
+/* Experiencia */
+.experiencia {
+    padding: 10px 30px 10px 30px;
+}
+
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* Para dar un efecto hover */
+    transition: all 0.2s ease-in;
+}
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge {
+    margin: 5px;
+}
+.experiencia p {
+    margin-top: 0px;
+    text-align: center;
+}
+.experiencia li {
+    text-align: left;
+}
+
+/* Especialidades */
+
+.seccion-titulo {
+    text-align: center;
+}
+.seccion-descripcion {
+    text-align: center;
+}
+.especialidades {
+    padding: 20px;
+   
+}
+.especialidades .carousel {
+    max-width: 800px;
+}
+
+
+.carousel-item {
+    height: 450px;
+}
+.carousel-item .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonio-imagen {
+    height: 350px;
+    width: 350px;
+    margin: 10px 10px 20px 10px;
+}
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+}
+.testimonio-info p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+.testimonio-info .cliente {
+    font-size: 0.8rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.6rem;
+    color: #615151;
+}
+
+/* zonas */
+
+.zonas-principales {
+    padding: 40px;
+  }
+  
+  .zonas-principales img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+  
+  .zonas-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .espacios {
+    position: relative;
+  }
+  
+  .espacios:hover img {
+    opacity: 0.2;
+  }
+  
+  .espacios:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay .iconos-contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+  }
+
+/* Contacto */
+.contacto .container {
+    margin-top: 50px;
+    width: 1000px;
+    min-height: 200px;
+    padding: 20px;
+}
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.contacto button:hover i {
+     color: black;
+    
+}
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Footer de la página home */
+
+.footer {
+    width: 900px;
+    margin-top: 40px;
+    height: 600px;
+    margin-bottom: 40px;
+}
+
+/* Adaptable reponsivo */
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+    /* Hacemos desaparecer el icono en pantallas pequeñas  */
+    #logo-principal {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+    
+}
+/* Corregimos visionado para pantallas muy pequeñas */
+@media screen and (max-width:400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .testimonio-imagen {
+        height: 200px;
+        width: 200px;
+        }
+    .testimonio-texto {
+        font-size: 18px;
+    }
+
+    
+}
