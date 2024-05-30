@@ -50,6 +50,7 @@
   
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
   
   .footer> .social-media-icons-wrapper a {

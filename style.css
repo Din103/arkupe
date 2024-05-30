@@ -90,7 +90,7 @@ h1 {
     width: 100%;
 }
 
-/* Quienes somos  */
+/* Fastfood  */
 .quienes-somos {
     height: 525px;    
     margin-top: 5px;
@@ -271,7 +271,7 @@ h1 {
     margin: 10px;
   }
 
-/* Contacto */
+/* "" */
 .contacto .container {
     margin-top: 50px;
     width: 100%;
@@ -289,6 +289,7 @@ h1 {
     display: flex;
     align-items: center;
 }
+
 
 .contacto .descripcion {
     color: white;
@@ -324,11 +325,23 @@ h1 {
 
 /* Footer de la página home */
 
-.footer {
-    width: 900px;
-    margin-top: 40px;
+.footer-seccion-oscura {
+    padding: 30px;
     height: 600px;
-    margin-bottom: 40px;
+    width: 1000px;
+    background-color: white;
+}
+
+.footer {    
+    width: 600px;
+    height: 300px;
+    margin: 0px;
+}
+
+.googlemap {
+    margin: 10px;
+    height:300px;
+    width:100%;
 }
 
 /* Adaptable reponsivo */
@@ -361,6 +374,21 @@ h1 {
     .experiencia {
         margin-top: 100px;
         }
+
+        .footer {    
+            height: 500px;             
+        }
+        .footer-seccion-oscura {
+            padding: 30px;
+            height: 800px;
+            width: 400px;
+            background-color: white;
+        }
+        .googlemap {
+            
+            width: 60%;
+           
+        }
 }
 
 @media screen and (max-width:800px) {
@@ -373,6 +401,20 @@ h1 {
     }
     .experiencia {
         margin-top: 100px;
+        }
+
+        .footer {    
+            height: 800px;
+             
+        }
+        .footer-seccion-oscura {
+            padding: 30px;
+            height: 800px;
+            width: 800px;
+            background-color: white;
+        }
+        .googlemap {
+          width: 60%;           
         }
     
 }
